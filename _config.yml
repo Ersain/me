@@ -39,10 +39,13 @@ additional_links:
 about_profile_image: images/me.png
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name's Ersain and I'm a software developer and computer engineering enthusiast.
+
   Skills: <mark>Python</mark>, <mark>Django</mark>, <mark>Django REST Framework</mark>, <mark>PostgreSQL</mark>
   
   Tools: <mark>Git</mark>, <mark>Linux</mark>, <mark>Docker</mark>
+
   Familiar: <mark>Javascript</mark>, <mark>HTML/CSS3</mark>, <mark>Flask</mark>, <mark>FastAPI</mark>, <mark>Bash Scripting</mark>, <mark>Machine Learning</mark>,
+
   My GitHub is more like a project graveyard of half-finished, half-assed projects than a set of project repositories that showcase my skills.
 
 content:
@@ -90,7 +93,7 @@ content:
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: left
+      - layout: top-middle
         title: Suleyman Demirel University
         caption: 2017 - 2021
         sub_title: BSc Information Systems
