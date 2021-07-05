@@ -1,0 +1,123 @@
+# Site
+repository: ersain/resume
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Yersaiyn Dynmukhamed
+title: Software Developer
+email: ersain.subs@gmail.com
+website: www.ersain.github.io
+
+# Dark Mode (true/false/never)
+darkmode: true
+
+# Social links
+github_username:  ersain
+stackoverflow_username: "11544538"
+instagram_username: ersaindk
+
+# Additional icon links
+additional_links:
+- title: Telegram
+  icon: fab fa-telegram
+  url: https://t.me/ersaindk
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/me.png
+about_content: | # this will include new lines to allow paragraphs
+  Hi, my name's Ersain and I'm a software developer and computer engineering enthusiast.
+  Skills: <mark>Python</mark>, <mark>Django</mark>, <mark>Django REST Framework</mark>, <mark>PostgreSQL</mark>
+  
+  Tools: <mark>Git</mark>, <mark>Linux</mark>, <mark>Docker</mark>
+  Familiar: <mark>Javascript</mark>, <mark>HTML/CSS3</mark>, <mark>Flask</mark>, <mark>FastAPI</mark>, <mark>Bash Scripting</mark>, <mark>Machine Learning</mark>,
+  My GitHub is more like a project graveyard of half-finished, half-assed projects than a set of project repositories that showcase my skills.
+
+content:
+  # - title: Projects # Title for the section
+  #   layout: list # Type of content section (list/text)
+  #   content:
+  #     - layout: top-middle
+  #       title: Super awesome project
+  #       link: github.com/sproogen
+  #       # link_text: Project Website
+  #       additional_links:
+  #         - title:  sproogen/modern-resume-theme
+  #           icon: fab fa-github
+  #           url: github.com/sproogen/modern-resume-theme
+  #         # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+  #         #   icon: fab fa-github
+  #         #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+  #       quote: >
+  #         This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+  #       description: | # this will include new lines to allow paragraphs
+  #         I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: ChocoFamily
+        link: ChocoFamily.kz
+        # link_text: boringcompany.com
+        sub_title: Junior Back-end Developer
+        caption: Jul 2019 - Jul 2020
+        # quote: >
+        #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        description: | # this will include new lines to allow paragraphs
+            As an intern developer I was involved in:
+            - Minor improvements to individual modules of the project
+            - Bug fixing on server side
+            - Code refactoring
+            As a junior developer I was involved in:
+            - Implementing features while ensuring long term stability of the system and quality of the code
+            - Participation in the development of SOA and optimization of technical development processes in the company
+            - Translating code to newest version of software
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Suleyman Demirel University
+        caption: 2017 - 2021
+        sub_title: BSc Information Systems
+        # quote: >
+        #   Making your dreams a reality
+        description: | # this will include new lines to allow paragraphs
+          Faculty of Engineering and Natural Sciences, Information Systems
+
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+      - Chess
+      - Online competitive games
+      - Watching series
+      - Walking at nights
+      - Eating Pizza
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
