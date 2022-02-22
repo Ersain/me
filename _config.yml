@@ -6,18 +6,18 @@ favicon: images/favicon.ico
 version: 2
 
 # Personal info
-name: Yersaiyn Dynmukhamed
+name: Ersain Dinmukhamed
 title: Software Developer
 email: ersain.subs@gmail.com
-website: https://ersain.github.io/
+website: https://ersain.nl/
 
 # Dark Mode (true/false/never)
-darkmode: never
+darkmode: true
 
 # Social links
 github_username:  ersain
 stackoverflow_username: "11544538"
-instagram_username: ersaindk
+# instagram_username: ersaindk
 
 # Additional icon links
 additional_links:
@@ -40,42 +40,31 @@ about_profile_image: images/me.png
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name's Ersain and I'm a software developer and computer engineering enthusiast.
 
-  Skills: <mark>Python</mark>, <mark>Django</mark>, <mark>Django REST Framework</mark>, <mark>PostgreSQL</mark>
+  Skills: <mark>Web Programming</mark>, <mark>Back-end Development</mark>, <mark>Software Development</mark>
   
-  Tools: <mark>Git</mark>, <mark>Linux</mark>, <mark>Docker</mark>
+  Tools: <mark>Python</mark>, <mark>Django</mark>, <mark>Django REST Framework</mark>, <mark>PostgreSQL</mark>,
+  <mark>Redis</mark>, <mark>Celery</mark>, <mark>RabbitMQ</mark>, <mark>Docker</mark>, <mark>docker-compose</mark>,
+  <mark>nginx</mark>
 
-  Familiar: <mark>Javascript</mark>, <mark>HTML/CSS3</mark>, <mark>Flask</mark>, <mark>FastAPI</mark>, <mark>Bash Scripting</mark>, <mark>Machine Learning</mark>,
+  General: <mark>Asynchronous Programming</mark>, <mark>Object-Oriented Programming</mark>,
+  <mark>Algorithms and Data Structures</mark>, <mark>Computer Networks</mark>,
+  <mark>REST</mark>, <mark>SOAP</mark>, <mark>GraphQL</mark>, <mark>Websockets</mark>,
+  <mark>Web Servers</mark>, <mark>WSGI/ASGI</mark>, <mark>AWS (EC2, RDS, S3)</mark>, <mark>RDBMS</mark>, <mark>ORM</mark>,
+  <mark>Microservices</mark>, <mark>Distributed Task Queues</mark>, <mark>VCS/Git</mark>, <mark>Bash Scripting</mark>
+
+  Familiar with: <mark>FastAPI</mark>, <mark>Flask</mark>, <mark>Javascript</mark>, <mark>Kubernetes</mark>
 
   My GitHub is more like a project graveyard of half-finished, half-assed projects than a set of project repositories that showcase my skills.
 
 content:
-  # - title: Projects # Title for the section
-  #   layout: list # Type of content section (list/text)
-  #   content:
-  #     - layout: top-middle
-  #       title: Super awesome project
-  #       link: github.com/sproogen
-  #       # link_text: Project Website
-  #       additional_links:
-  #         - title:  sproogen/modern-resume-theme
-  #           icon: fab fa-github
-  #           url: github.com/sproogen/modern-resume-theme
-  #         # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-  #         #   icon: fab fa-github
-  #         #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-  #       quote: >
-  #         This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-  #       description: | # this will include new lines to allow paragraphs
-  #         I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
-
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
         title: ChocoFamily
-        link: ChocoFamily.kz
+        link: https://chocofamily.kz
         # link_text: boringcompany.com
-        sub_title: Junior Back-end Developer
+        sub_title: Back-end Developer
         caption: Jul 2019 - Jul 2020
         # quote: >
         #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
@@ -89,6 +78,32 @@ content:
             - Implementing features while ensuring long term stability of the system and quality of the code
             - Participation in the development of SOA and optimization of technical development processes in the company
             - Translating code to newest version of software
+      - layout: left
+        title: Somnium LLP
+        link: https://somniumllp.com
+        # link_text: boringcompany.com
+        sub_title: Back-end Developer
+        caption: Jan 2021 - Apr 2021
+        description: | # this will include new lines to allow paragraphs
+            - Participation in the development of electronic document management system
+            - Bug fixing of individual modules and code refactoring
+      - layout: left
+        title: Recruit AI
+        link: https://recruitai.io / https://onayjumys.kz
+        sub_title: Software Developer
+        caption: Jun 2021 - Nov 2021
+        description: | # this will include new lines to allow paragraphs
+            - Participation in the development of tools for automated recruiting
+            - Integrating with 3rd party APIs
+            - Telegram/WhatsApp bots development
+      - layout: left
+        title: Globerce inc. LLP
+        link: https://globerce.com
+        sub_title: Software Developer
+        caption: Nov 2021 - Present
+        description: | # this will include new lines to allow paragraphs
+            - Participation in the development of automated mortgage lending service
+            - Integrating with 3rd party services
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -101,11 +116,38 @@ content:
         #   Making your dreams a reality
         description: | # this will include new lines to allow paragraphs
           Faculty of Engineering and Natural Sciences, Information Systems
+      - layout: top-middle
+        title: Eurasian Nation University
+        caption: 2021 - Present
+        sub_title: Master Degree Program
+        # quote: >
+        #   Making your dreams a reality
+        description: | # this will include new lines to allow paragraphs
+          Faculty of Informational Technologies, Information Systems
+
+  # - title: Projects # Title for the section
+  #   layout: list # Type of content section (list/text)
+  #   content:
+  #     - layout: top-middle
+  #       title: Safety Rules
+  #       # link: github.com/sproogen
+  #       # link_text: Project Website
+  #       additional_links:
+  #         - title:  sproogen/modern-resume-theme
+  #           icon: fab fa-github
+  #           url: github.com/sproogen/modern-resume-theme
+  #         # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+  #         #   icon: fab fa-github
+  #         #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+  #       quote: >
+  #         This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+  #       description: | # this will include new lines to allow paragraphs
+  #         I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
 
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+      Alongside my interests in software engineering and some of my other interests and hobbies are:
       - Chess
       - Online competitive games
       - Watching series
