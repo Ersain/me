@@ -12,12 +12,12 @@ email: ersain.subs@gmail.com
 website: https://ersain.nl/
 
 # Dark Mode (true/false/never)
-darkmode: true
+darkmode: false
 
 # Social links
 github_username:  ersain
 stackoverflow_username: "11544538"
-# instagram_username: ersaindk
+instagram_username: ersaindk
 
 # Additional icon links
 additional_links:
@@ -108,7 +108,7 @@ content:
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: top-middle
+      - layout: left
         title: Suleyman Demirel University
         caption: 2017 - 2021
         sub_title: BSc Information Systems
@@ -116,7 +116,7 @@ content:
         #   Making your dreams a reality
         description: | # this will include new lines to allow paragraphs
           Faculty of Engineering and Natural Sciences, Information Systems
-      - layout: top-middle
+      - layout: left
         title: Eurasian Nation University
         caption: 2021 - Present
         sub_title: Master Degree Program
